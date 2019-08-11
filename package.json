@@ -10,6 +10,8 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "react-youtube": "^7.9.0",
+    "remarkable": "^2.0.0",
+    "remarkable-react": "^1.4.1",
     "styled-components": "^4.3.2"
   },
   "scripts": {

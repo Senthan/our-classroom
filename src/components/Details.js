@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { ButtonContainer } from './Button';
 import YouTube from './YouTube';
 import parse from 'html-react-parser';
-
+import CommentBox from './CommentBox';
 
 export default class Details extends Component {
     render() {
@@ -22,16 +22,20 @@ export default class Details extends Component {
                                 <YouTube video={url} autoplay="0" rel="0" modest="1" />
                                 </div>
                                 <div className="row">
-                                    <p className="text-capitalize font-weight-bold mt-3 mb-0"> Some info about Product: </p>
+                                    <p className="text-capitalize font-weight-bold mt-3 mb-0"> Some info about Lesson: </p>
                                 </div>
                                 <div className="row">
                                     <div className="text-muted lead">{parse(info)}</div>
                                 </div>
                                 <div className="row">
-                                <Link to="/">
-                                    <ButtonContainer>Back to Classroom</ButtonContainer>
-                                </Link>
+                                    <Link to="/">
+                                        <ButtonContainer>Back to Classroom</ButtonContainer>
+                                    </Link>
                                 </div>
+                                <div className="row">
+                                    <CommentBox />
+                                </div>
+        
                             </div>
                         )
                     }

@@ -2,6 +2,12 @@ import React, { Component } from 'react'
 
 export default class YouTube extends Component {
     render() {
+      if (this.props.video || (this.props.video && this.props.video =="")) {
+        return (
+          <div className="">
+        </div>
+            );
+      }
         var videoSrc = "https://www.youtube.com/embed/" + 
         this.props.video + "?autoplay=" + 
         this.props.autoplay + "&rel=" + 
