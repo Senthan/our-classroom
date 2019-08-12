@@ -32,10 +32,10 @@ export default class Details extends Component {
                                         <ButtonContainer>Back to Classroom</ButtonContainer>
                                     </Link>
                                 </div>
-                                <div className="row">
+                                {/* <div className="row">
                                     <CommentBox />
                                 </div>
-        
+         */}
                             </div>
                         )
                     }

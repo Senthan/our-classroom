@@ -12,8 +12,7 @@ export const storeProducts = [
     description: "How to Install SSIS on windows",
     price: 10,
     company: "GOOGLE",
-    info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    info:'<ul className="list-group list-group-flush"> <li className="list-group-item">Download SSDT standalone installer usig this (https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-2017#ssdt-for-vs-2017-standalone-installer) and install it</li> </ul>',
     inCart: false,
     count: 0,
     total: 0
@@ -100,12 +99,11 @@ export const storeProducts = [
     id: 8,
     title: "Power BI Basics",
     img: "img/product-8.png",
-    url: "mYFaghHyMKc",
+    url: "08VX7XUHdUA",
     price: 2,
     company: "apple",
     description: "Power BI Basics",
-    info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    info: "",
     inCart: false,
     count: 0,
     total: 0

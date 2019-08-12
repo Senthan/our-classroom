@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class YouTube extends Component {
     render() {
-      if (this.props.video || (this.props.video && this.props.video =="")) {
+      if (!this.props.video || (this.props.video && this.props.video =="")) {
         return (
           <div className="">
         </div>
